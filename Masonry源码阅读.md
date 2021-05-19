@@ -24,3 +24,5 @@ left方法有返回值，类型是 MASConstraint *
 3. 接下来的**offset(padding)** 原理跟equalTo(superview.left)是一样的
 
 ![](images/Masonry/点链式语法片段4.png)
+
+> 从2，3两点可以看出，在每次调用完block后如果返回调用者对象本身，就可以实现的调用了。
