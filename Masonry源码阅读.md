@@ -9,3 +9,12 @@ Masonry中使用了大量的点链式语法，所以有必要了解点链式语�
 
 拿block里的一段代码 **make.left.equalTo(superview.left).offset(padding)** 分析下
 
+1. **"."** 相当于调用getter方法，**.left**相当于相当于调用了left方法，left方法定义如下
+
+![](images/Masonry/点链式语法片段2.png)
+
+left方法有返回值，类型是 MASConstraint *
+
+2. 接下来的**equalTo(blueView.top)**，在OC语言里调用block会使用()，调用一般的方法使用的是[]，equalTo()定义如下
+
+![](images/Masonry/点链式语法片段3.png)
