@@ -4,4 +4,7 @@
 ## 点链式语法
 
 Masonry中使用了大量的点链式语法，所以有必要了解点链式语法的基本使用
+
 ![](images/Masonry/点链式语法片段1.png)
+
+拿block里的一段代码**make.left.equalTo(superview.left).offset(padding)**分析下
