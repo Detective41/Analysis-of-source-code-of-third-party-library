@@ -15,6 +15,10 @@ Masonry中使用了大量的点链式语法，所以有必要在读源码前了�
 
 left方法有返回值，类型是 MASConstraint *
 
-2. 接下来的**equalTo(blueView.top)**，在OC语言里调用block会使用()，调用一般的方法使用的是[]，equalTo()定义如下
+2. 接下来的**equalTo(superview.left)**，在OC语言里调用block会使用()，调用一般的方法使用的是[]，equalTo()定义如下
 
 ![](images/Masonry/点链式语法片段3.png)
+
+可以看到equalTo()也是返回block，block有类型也是 MASConstraint * 的返回值
+
+3. 接下来的**offset(padding)** 原理跟equalTo(superview.left)是一样的
