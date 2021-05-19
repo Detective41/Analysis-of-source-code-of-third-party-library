@@ -21,7 +21,7 @@ left方法有返回值，类型是 MASConstraint *
 
 可以看到equalTo()也是返回block，block有类型也是 MASConstraint * 的返回值
 
-3. 接下来的**offset(padding)** 原理跟equalTo(superview.left)是一样的
+3. 接下来的**offset(padding)** 原理跟**equalTo(superview.left)** 是一样的
 
 ![](images/Masonry/点链式语法片段4.png)
 
