@@ -26,3 +26,7 @@ left方法有返回值，类型是 MASConstraint *
 ![](images/Masonry/点链式语法片段4.png)
 
 > 从2，3两点可以看出，在每次调用完block后如果返回调用者对象本身，就可以实现的调用了。
+
+## Masonry是怎么创建约束和怎么将约束添加到视图上的?
+
+![Masonry文件列表](images/Masonry/源码文件.png)
