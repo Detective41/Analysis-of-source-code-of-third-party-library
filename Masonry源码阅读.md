@@ -80,3 +80,11 @@ equalTo()的定义如下:
  3. 如果**superview.left** 传入的是MASViewAttribute类，直接赋值
 
 > 总结一下，首先自动布局有一个公式**item1.attribute1 = multiplier × item2.attribute2 + constant** ，**make.left** 创建了一个**firstViewAttribute,firstViewAttribute** 的view属性，相当于封装了布局公式的左边；而**equalTo()** 则是将**secondViewAttribute** 赋值给**MASViewConstraint** 对象的**secondViewAttribute** 属性，并给**MASViewConstraint** 对象的**layoutRelation** 属性赋值，相当于封装了布局公式的右边
+
+- **offset()**
+
+![](images/Masonry/点链式语法片段4.png)
+
+这里的逻辑也很简单，就是给**MASViewConstraint** 对象的**layoutConstant** 属性赋值
+
+![](images/Masonry/代码流程片段6.png)
