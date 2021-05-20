@@ -60,3 +60,7 @@ Masonry文件列表如下：
  3. 链式调用的初始调用会进入这里，像**make.left**
 
 > 总结来说**make.left** 做的事情是根据NSLayoutAttribute属性创建并返回MASViewConstraint * 对象
+
+- **make.left.equalTo(superview.left)**
+
+![](images/Masonry/点链式语法片段3.png)
