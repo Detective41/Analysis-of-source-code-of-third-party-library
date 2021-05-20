@@ -96,3 +96,7 @@ equalTo()的定义如下:
  这个方法就是将我们前面编好的约束添加到视图上
  
 ![](images/Masonry/代码流程片段7.png) 
+
+前面类似**.left** 和**.left.right** 都会将约束**MASConstraint** 对象加到一个数组里，执行install方法就会遍历数组里每个约束，将约束添加到视图上
+
+![](images/Masonry/代码流程片段8.png) 
