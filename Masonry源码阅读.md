@@ -88,3 +88,5 @@ equalTo()的定义如下:
 这里的逻辑也很简单，就是给**MASViewConstraint** 对象的**layoutConstant** 属性赋值
 
 ![](images/Masonry/代码流程片段6.png)
+
+到这里**make.left.equalTo(superview.left).offset(padding)** 的代码流程就解读完了
