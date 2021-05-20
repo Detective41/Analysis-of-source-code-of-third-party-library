@@ -104,3 +104,8 @@ equalTo()的定义如下:
 ![](images/Masonry/代码流程片段8.png) 
 
 ![](images/Masonry/代码流程片段9.png) 
+
+ 1. 若**firstView** 和 **secondView** 有共同的父视图，则将约束添加到父视图上
+ 2. 若约束是size的约束(即width和height)，则将约束添加到本视图
+ 3. 否则将约束添加到本视图的父视图
+ 4. 最后把约束添加到视图上
