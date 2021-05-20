@@ -43,4 +43,8 @@ Masonry文件列表如下：
 
 ![](images/Masonry/代码流程片段1.png)
 
+在这里创建MASConstraintMaker * 对象，用来管理block里的像**NSLayoutAttributeLeft** 等这些属性，和创建约束。
 
+- **make.left**
+
+![](images/Masonry/点链式语法片段2.png)
