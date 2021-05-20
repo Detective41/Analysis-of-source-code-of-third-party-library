@@ -31,11 +31,8 @@ left方法有返回值，类型是 MASConstraint *
 
 ## Masonry是怎么创建约束和怎么将约束添加到视图上的?
 
-<figure>
-  <img
-  src="images/Masonry/源码文件.png"
-  alt="The beautiful MDN logo.">
-  <figcaption>MDN Logo</figcaption>
-</figure>
+Masonry文件列表如下：
+
+![](images/Masonry/源码文件.png)
 
 
