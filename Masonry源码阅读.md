@@ -38,3 +38,5 @@ Masonry文件列表如下：
 从最基本的使用开始探究代码的流程
 
 ![](images/Masonry/点链式语法片段1.png)
+
+- makeConstraints
