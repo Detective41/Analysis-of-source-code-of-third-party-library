@@ -70,3 +70,7 @@ equalTo()的定义如下:
 继续往下查看
 
 ![](images/Masonry/代码流程片段4.png)
+
+这里要做的事情就是给**layoutRelation** 和**secondViewAttribute** 这两个属性赋值，着重看一下**secondViewAttribute** 的赋值操作
+
+![](images/Masonry/代码流程片段5.png)
