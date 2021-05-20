@@ -93,4 +93,6 @@ equalTo()的定义如下:
 
 - **[constraintMaker install]** 
 
-
+ 这个方法就是将我们前面编好的约束添加到视图上
+ 
+![](images/Masonry/代码流程片段7.png) 
