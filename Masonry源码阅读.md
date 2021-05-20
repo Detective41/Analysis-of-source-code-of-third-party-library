@@ -58,3 +58,5 @@ Masonry文件列表如下：
  1. 根据传进来的参数**layoutAttribute** 生成MASViewConstraint * 对象
  2. 如果链式语法像**make.left.right** 这样调用就会进入这里，生成复合型约束MASCompositeConstraint * 对象
  3. 链式调用的初始调用会进入这里，像**make.left**
+
+> 总结来说**make.left** 做的事情是根据NSLayoutAttribute属性创建并返回MASViewConstraint * 对象
